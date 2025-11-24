@@ -1,8 +1,9 @@
-# **HyperCausal-DDI: De-confounded High-Order Polypharmacy Prediction**
+# HyperCausal-DDI: De-confounded High-Order Polypharmacy Side Effect Prediction
+
+This repository implements the HyperCausal-DDI model from the paper ["Beyond Associations: HyperCausal-DDI for De-confounded High-Order Polypharmacy Side Effect Prediction"](link-to-paper-if-published) (Smart Health, 2025).
 
 ## **📌 Overview**
-
-**HyperCausal-DDI** is a unified framework bridging Geometric Deep Learning and Causal Inference to predict side effects in high-order drug combinations (Polypharmacy).
+HyperCausal-DDI integrates hypergraph neural networks with structural causal models to predict high-order drug interactions while de-confounding patient comorbidities. 
 
 ### **Key Features:**
 
@@ -10,6 +11,7 @@
 * **Causal De-confounding:** Implements a *Neural Backdoor Adjustment* layer to remove confounding bias (e.g., patient comorbidities) from observational EHR data.  
 * **Multi-Modal Fusion:** Integrates 3D molecular structures (GNN) with text-based Mechanism of Action (BioBERT).  
 * **Scalable:** Utilizes sparse matrix operations to scale linearly with the number of prescriptions.
+
 
 ## **📂 Repository Structure**
 
