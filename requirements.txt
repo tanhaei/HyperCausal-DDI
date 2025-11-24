@@ -1,0 +1,28 @@
+# Deep Learning Framework
+torch>=2.0.0
+torch-geometric>=2.3.0
+
+# PyG Optional Dependencies (Critical for Scatter/Sparse ops)
+# Note: These often need manual installation based on CUDA version
+torch-scatter>=2.1.1
+torch-sparse>=0.6.17
+torch-cluster>=1.6.1
+
+# Data Manipulation
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Machine Learning & Metrics
+scikit-learn>=1.2.2
+tqdm>=4.65.0
+
+# NLP (For BioBERT)
+transformers>=4.30.0
+tokenizers>=0.13.3
+
+# Chemoinformatics (For processing SMILES from DrugBank)
+rdkit>=2023.3.1
+
+# Visualization (For reproducing paper figures)
+matplotlib>=3.7.1
+seaborn>=0.12.2
