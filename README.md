@@ -1,7 +1,5 @@
 # **HyperCausal-DDI: De-confounded High-Order Polypharmacy Prediction**
 
-This repository contains the official PyTorch implementation of the paper: **"Beyond Associations: HyperCausal-DDI for De-confounded High-Order Polypharmacy Side Effect Prediction"**.
-
 ## **📌 Overview**
 
 **HyperCausal-DDI** is a unified framework bridging Geometric Deep Learning and Causal Inference to predict side effects in high-order drug combinations (Polypharmacy).
