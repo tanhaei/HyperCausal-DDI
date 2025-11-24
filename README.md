@@ -28,25 +28,35 @@ High-order graph learning requires specific versions of PyTorch Geometric. Pleas
 
 ### **1\. Create Environment**
 
+```bash
 conda create \-n hyperddi python=3.9  
 conda activate hyperddi
+```
 
 ### **2\. Install PyTorch (GPU version recommended)**
 
 Adjust the CUDA version (cu118) based on your system:
 
+```bash
 pip install torch torchvision torchaudio \--index-url \[https://download.pytorch.org/whl/cu118\](https://download.pytorch.org/whl/cu118)
+```
 
 ### **3\. Install Graph Dependencies**
 
 **Critical Step:** These libraries must match your PyTorch and CUDA versions.
 
+```bash
 pip install torch-scatter torch-sparse torch-cluster torch-spline-conv \-f \[https://data.pyg.org/whl/torch-2.0.0+cu118.html\](https://data.pyg.org/whl/torch-2.0.0+cu118.html)  
 pip install torch-geometric
+```
 
 ### **4\. Install Other Requirements**
 
+```bash
+git clone https://github.com/tanhaei/HyperCausal-DDI.git
+cd HyperCausal-DDI
 pip install \-r requirements.txt
+```
 
 ## **📊 Data Preparation**
 
@@ -72,7 +82,9 @@ Due to data privacy regulations (HIPAA), we cannot release the raw patient data.
 
 To train the model on the default configuration:
 
+```bash
 python train.py
+```
 
 ### **Hyperparameters**
 
