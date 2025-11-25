@@ -1,4 +1,4 @@
-# HyperCausal-DDI: De-confounded High-Order Polypharmacy Side Effect Prediction
+# Beyond Associations: HyperCausal-DDI for De-confounded High-Order Polypharmacy Side Effect Prediction
 
 This repository implements the HyperCausal-DDI model from the paper ["Beyond Associations: HyperCausal-DDI for De-confounded High-Order Polypharmacy Side Effect Prediction"](link-to-paper-if-published) (Smart Health, 2025).
 
