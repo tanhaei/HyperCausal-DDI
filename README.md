@@ -15,12 +15,14 @@ HyperCausal-DDI integrates hypergraph neural networks with structural causal mod
 
 ## **📂 Repository Structure**
 
+```
 .  
 ├── layers.py           \# Custom layers: CausalDeconfounding & SparseHypergraphConv  
 ├── model.py            \# Main architecture: HyperCausalDDI & Multi-modal Encoders  
 ├── train.py            \# Training loop, Focal Loss, and Data Loading logic  
 ├── requirements.txt    \# Python dependencies  
 └── README.md           \# Project documentation
+```
 
 ## **🛠 Installation**
 
